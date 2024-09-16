@@ -1,0 +1,12 @@
+<div class="container">
+  <h3 class="mat-title">Turismo</h3>
+  <div class="card-conteiner"></div>
+  <div class="card-content" *ngFor="let item of turismo">
+    <mat-card style="background-color: rgba(255, 255, 255, 0.6)">
+      <mat-card-header>
+        <mat-card-title>{{ item.name }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>{{ item.description }}</mat-card-content>
+    </mat-card>
+  </div>
+</div>

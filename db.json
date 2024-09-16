@@ -1,0 +1,37 @@
+{
+  "tourism": [
+    {
+      "id": "1",
+      "name": "Machu Picchu",
+      "description": "Ruínas Incas e uma das sete maravilhas do mundo moderno, Machu Picchu é sem dúvida uma das atrações mais icônicas e impressionantes do Peru. Essa cidade ancestral dos Incas foi construída no século XV, no topo de uma montanha na região dos Andes. Com sua arquitetura impressionante e localização deslumbrante, Machu Picchu atrai milhares de turistas todos os anos."
+    },
+    {
+      "id": "2",
+      "name": "Lago Titicaca",
+      "description": "O lago navegável mais alto do mundo."
+    }
+  ],
+  "culture": [
+    {
+      "id": "1",
+      "name": "Dia dos Mortos",
+      "description": "Celebração ancestral de homenagem aos mortos.",
+      "descricao": "Descrição atualizada"
+    },
+    {
+      "id": "2",
+      "name": "Música Andina",
+      "description": "Tradição musical típica dos Andes."
+    }
+  ],
+  "geography": [
+    {
+      "id": "1",
+      "name": "Cordilheira dos Andes",
+      "description": "Uma das cadeias de montanhas mais longas do mundo."
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

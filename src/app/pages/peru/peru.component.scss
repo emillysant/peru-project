@@ -1,0 +1,28 @@
+.container {
+  background-image: url("https://www.southern-cross-tours.de/fileadmin/_processed_/a/8/csm_SAM_PE_011_20180504_ss_8f00252223.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container-site {
+  display: flex;
+  flex-direction: row;
+  padding: 8vh;
+}
+.content-0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content-1 {
+  max-width: 600px;
+  margin: auto;
+}
+
+.mat-title {
+  color: white;
+}

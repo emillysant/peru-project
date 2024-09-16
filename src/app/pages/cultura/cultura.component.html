@@ -1,0 +1,20 @@
+<div class="container">
+  <h3 class="mat-title">Cultura</h3>
+  <div class="card-conteiner">
+    <div class="card-content" *ngFor="let item of cultura">
+      <mat-card style="background-color: rgba(255, 255, 255, 0.6)">
+        <mat-card-header>
+          <mat-card-title>{{ item.name }}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>{{ item.description }}</mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="editarCultura(item)">Editar</button>
+          <button mat-button color="warn" (click)="deletarCultura(item.id)">
+            Excluir
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+  <button mat-fab color="primary" (click)="adicionarCultura()">+</button>
+</div>

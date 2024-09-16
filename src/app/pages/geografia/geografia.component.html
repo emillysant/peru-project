@@ -1,0 +1,16 @@
+<div class="container">
+  <h3 class="mat-title">Geografia</h3>
+  <img
+    src="https://th.bing.com/th/id/R.c5c03b99c910b318df5343115d8d171b?rik=C4tUxyD9Z5v0yQ&riu=http%3a%2f%2fwww.gaston-sacaze.com%2fwp-content%2fuploads%2f2017%2f12%2fPeru.jpg&ehk=qrfhgsJmEKrSQimlvUDKiYhanAssbLaV2TmQlF5d2EE%3d&risl=&pid=ImgRaw&r=0"
+    alt="Descubra o Peru"
+  />
+  <div class="card-conteiner"></div>
+  <div class="card-content" *ngFor="let item of geografia">
+    <mat-card style="background-color: rgba(255, 255, 255, 0.6)">
+      <mat-card-header>
+        <mat-card-title>{{ item.name }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>{{ item.description }}</mat-card-content>
+    </mat-card>
+  </div>
+</div>

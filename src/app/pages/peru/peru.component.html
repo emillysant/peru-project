@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="container-site">
+    <div class="content-0">
+      <h1 class="mat-title">Descubra o Peru</h1>
+      <nav>
+        <button mat-button [routerLink]="['/peru/cultura']">Cultura</button>
+        <button mat-button [routerLink]="['/peru/geografia']">Geografia</button>
+        <button mat-button [routerLink]="['/peru/turismo']">Turismo</button>
+      </nav>
+    </div>
+    <div class="content-1">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
