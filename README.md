@@ -1,6 +1,16 @@
 # PeruProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+Projeto FrontEnd - PAÍSES
+O projeto pode ser construído individual ou até 5 pessoas.
+OBS: Os que forem fazer o projeto em grupo avisar ao professor no privado do wpp
+
+Orientações:
+1)Escolher um país
+2)Montar uma SPA consumindo uma API com funcionalidade de CRUD temática do país
+3)Pesquisar e usar pop-ups/janelas em Angular
+4)Recomendações: usar o projeto para treinar e praticar: tailwindcss ou angular material
+5)Recomendações 2: pesquisar sites que tenham componentes prontos como: codePen
 
 ## Development server
 
@@ -29,4 +39,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # FAKE API
 
 `npx json-server --watch db.json`
-"# peru-project" 
+
+
