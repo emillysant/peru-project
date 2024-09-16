@@ -49,6 +49,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Tourism
+![image](https://github.com/user-attachments/assets/3c3981a7-f9b3-409c-b796-a401cf27b7ef)
 
 
 ## Geography
